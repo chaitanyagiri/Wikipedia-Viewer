@@ -1,0 +1,50 @@
+body{
+  background-color:#F44336;
+  transition: all 0.5s ease-in-out;  
+}
+.srch-res{
+  transition: all 0.5s ease-in-out;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover {
+  
+  color: black;
+  text-decoration: none;
+}
+.fa:hover{
+  transform: scale(1.2);
+}
+.jumbotron{
+ transition: all 0.3s ease-in-out; 
+}
+.jumbotron:hover{
+  border-left:10px solid #000;
+}
+.fa,.fa-search,.fa-random{
+  font-size:4em;
+  color:#FDD835;
+  transition: all 0.5s ease-in-out;
+}
+.wrapper{
+  margin-top:5cm;
+}
+input[type=text] {
+  font-family: 'Exo', sans-serif;
+  font-size:20px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  -webkit-appearance: none;
+}
+.rand{
+  font-family: 'Exo', sans-serif;
+  font-size:25px;
+}
+.fa-random{
+  font-size:35px !important;
+}
+h1,h2,.jumbotron{
+  font-family: 'Exo', sans-serif !important;
+}
